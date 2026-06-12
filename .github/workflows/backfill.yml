@@ -1,0 +1,50 @@
+name: Backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "開始日 (YYYY-MM-DD)"
+        required: false
+        default: "2026-01-05"
+      end_date:
+        description: "終了日 (YYYY-MM-DD)"
+        required: false
+        default: "2026-06-12"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run backfill
+        env:
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+          START_DATE: ${{ github.event.inputs.start_date }}
+          END_DATE: ${{ github.event.inputs.end_date }}
+        run: python scripts/backfill.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "warrant-radar[bot]"
+          git config user.email "warrant-radar[bot]@users.noreply.github.com"
+          git add index.html data/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: backfill warrant data"
+            git pull --rebase
+            git push
+          fi

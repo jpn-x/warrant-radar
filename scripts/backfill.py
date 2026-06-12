@@ -8,8 +8,11 @@ from zoneinfo import ZoneInfo
 
 JST = ZoneInfo("Asia/Tokyo")
 
-START = date(2026, 1, 5)
-END   = date.today()
+import os as _os
+_start_env = _os.environ.get("START_DATE", "")
+_end_env   = _os.environ.get("END_DATE", "")
+START = date.fromisoformat(_start_env) if _start_env else date(2026, 1, 5)
+END   = date.fromisoformat(_end_env)   if _end_env   else date.today()
 
 existing = {f[:10] for f in os.listdir(DATA_DIR) if f.endswith(".json")} if os.path.exists(DATA_DIR) else set()
 
