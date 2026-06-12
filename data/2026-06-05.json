@@ -7,9 +7,9 @@
       "name": "株式会社オープンハウスグループ",
       "desc": "訂正臨時報告書",
       "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2036年５月15日",
+      "remaining": 1061,
+      "exercise_price": 9327,
+      "expire": "2036年5月15日",
       "per_right": null,
       "warrant": true,
       "keywords": [

@@ -66,10 +66,8 @@ def xbrl_parse(doc_id: str) -> dict:
             honbun = next((n for n in htm_files if "honbun" in n), None) \
                   or (htm_files[0] if htm_files else None)
             if not honbun:
-                print(f"    [debug] {doc_id}: ZIP内にhtmなし (files={names[:5]})")
                 return result
             txt = zf.read(honbun).decode("utf-8", errors="ignore")
-            print(f"    [debug] {doc_id}: {honbun} ({len(txt)}chars)")
 
         # 新株予約権関連でなければスキップ
         matched = [kw for kw in WARRANT_KEYWORDS if kw in txt]
@@ -138,8 +136,11 @@ def xbrl_parse(doc_id: str) -> dict:
                 pass
 
         # ── 本文テキストからの正規表現フォールバック ──
-        plain = re.sub(r"<[^>]+>", "", txt)
+        plain = re.sub(r"&#\d+;", "", txt)
+        plain = re.sub(r"<[^>]+>", "", plain)
         plain = re.sub(r"\s+", "", plain)
+        # 全角数字・カンマを半角に正規化
+        plain = plain.translate(str.maketrans("０１２３４５６７８９，", "0123456789,"))
 
         def _num(pattern):
             m = re.search(pattern, plain)
@@ -150,27 +151,45 @@ def xbrl_parse(doc_id: str) -> dict:
                     return None
             return None
 
+        # 発行数（個）→ remaining として扱う（発行決議時点の予約権数）
+        if "remaining" not in result:
+            v = _num(r"発行数(?:第\d+回新株予約権)?([\d,]+)個")
+            if v is None:
+                v = _num(r"(?:未行使|残存)(?:の)?(?:本)?新株予約権(?:の)?(?:個数|数)[：:は]?([\d,]+)個")
+            if v is not None:
+                result["remaining"] = v
+
+        # 1個あたり株数
+        if "per_right" not in result:
+            v = _num(r"[1１]個(?:あた?り|につき)([\d,]+)株")
+            if v is None:
+                v = _num(r"新株予約権[1１]個(?:あた?り|につき)(?:、)?([\d,]+)株")
+            if v is not None:
+                result["per_right"] = v
+
+        # 行使により交付される株式総数 → issued（潜在株数）
         if "issued" not in result:
-            v = _num(r"(?:行使|交付)(?:により|による)?(?:発行|交付)(?:した|する)?株式(?:の)?(?:数|総数)[：:は]?([\d,]+)株")
+            v = _num(r"(?:行使する|行使)(?:ことにより|により)交付(?:を受けることができる|される)株式の総数は(?:、)?(?:当社普通株式)?([\d,]+)株")
             if v is None:
                 v = _num(r"新規発行株式数[：:]?(?:普通株式)?([\d,]+)株")
             if v is not None:
                 result["issued"] = v
 
-        if "remaining" not in result:
-            v = _num(r"(?:未行使|残存)(?:の)?(?:本)?新株予約権(?:の)?(?:個数|数)[：:は]?([\d,]+)個")
-            if v is not None:
-                result["remaining"] = v
-
+        # 行使価額
         if "exercise_price" not in result:
-            v = _num(r"行使価額[：:は]?(?:1株(?:当た?り)?)?([\d,]+)円")
+            v = _num(r"行使価額は(?:、)?金?([\d,]+)円")
             if v is None:
-                v = _num(r"払込金額[：:は]?(?:1株(?:当た?り)?)?([\d,]+)円")
+                v = _num(r"行使価額[：:]?(?:[1１]株(?:当た?り|あた?り)?)?(?:、)?金?([\d,]+)円")
+            if v is None:
+                v = _num(r"払込金額[：:は]?(?:[1１]株(?:当た?り|あた?り)?)?(?:、)?金?([\d,]+)円")
             if v is not None:
                 result["exercise_price"] = v
 
+        # 行使期限（行使期間の終了日）
         if "expire" not in result:
-            m = re.search(r"行使期間[：:は]?.{0,30}?(?:から|乃至|～|〜)(\d{4}年\d{1,2}月\d{1,2}日)", plain)
+            m = re.search(
+                r"行使期間.{0,80}?\d{4}年\d{1,2}月\d{1,2}日(?:から|～|〜|乃至)(\d{4}年\d{1,2}月\d{1,2}日)",
+                plain)
             if m:
                 result["expire"] = m.group(1)
 

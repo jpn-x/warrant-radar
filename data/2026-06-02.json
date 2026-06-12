@@ -7,9 +7,9 @@
       "name": "株式会社西松屋チェーン",
       "desc": "訂正臨時報告書",
       "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2030年５月31日",
+      "remaining": 1322,
+      "exercise_price": 2353,
+      "expire": "2030年5月31日",
       "per_right": null,
       "warrant": true,
       "keywords": [

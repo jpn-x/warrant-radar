@@ -7,10 +7,10 @@
       "name": "モルガン・スタンレー",
       "desc": "臨時報告書",
       "issued": null,
-      "remaining": null,
+      "remaining": 586622,
       "exercise_price": null,
       "expire": null,
-      "per_right": null,
+      "per_right": 1,
       "warrant": true,
       "keywords": [
         "新株予約権"

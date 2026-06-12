@@ -9,7 +9,7 @@
       "issued": null,
       "remaining": null,
       "exercise_price": 226,
-      "expire": "2031年８月９日",
+      "expire": "2031年8月9日",
       "per_right": null,
       "warrant": true,
       "keywords": [
@@ -23,7 +23,7 @@
       "name": "ソースネクスト株式会社",
       "desc": "訂正臨時報告書",
       "issued": null,
-      "remaining": null,
+      "remaining": 5740,
       "exercise_price": null,
       "expire": "2036年3月25日",
       "per_right": null,
@@ -41,7 +41,7 @@
       "issued": null,
       "remaining": null,
       "exercise_price": null,
-      "expire": "2044年６月10日",
+      "expire": "2044年6月10日",
       "per_right": null,
       "warrant": true,
       "keywords": [
@@ -56,7 +56,7 @@
       "issued": null,
       "remaining": null,
       "exercise_price": null,
-      "expire": "2029年３月16日",
+      "expire": "2029年3月16日",
       "per_right": null,
       "warrant": true,
       "keywords": [

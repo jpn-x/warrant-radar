@@ -21,11 +21,11 @@
       "sec": "2998",
       "name": "クリアル株式会社",
       "desc": "訂正臨時報告書",
-      "issued": null,
-      "remaining": null,
+      "issued": 410000,
+      "remaining": 4100,
       "exercise_price": null,
-      "expire": "2032年６月２日",
-      "per_right": null,
+      "expire": "2032年6月2日",
+      "per_right": 100,
       "warrant": true,
       "keywords": [
         "新株予約権"
@@ -39,7 +39,7 @@
       "issued": null,
       "remaining": null,
       "exercise_price": null,
-      "expire": "2029年５月22日",
+      "expire": "2029年5月22日",
       "per_right": null,
       "warrant": true,
       "keywords": [
@@ -54,7 +54,7 @@
       "issued": null,
       "remaining": null,
       "exercise_price": null,
-      "expire": "2044年７月31日",
+      "expire": "2044年7月31日",
       "per_right": null,
       "warrant": true,
       "keywords": [

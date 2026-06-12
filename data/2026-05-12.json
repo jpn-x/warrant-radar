@@ -37,10 +37,10 @@
       "name": "株式会社船井総研ホールディングス",
       "desc": "訂正臨時報告書",
       "issued": null,
-      "remaining": null,
+      "remaining": 734,
       "exercise_price": null,
-      "expire": "2056年５月11日",
-      "per_right": null,
+      "expire": "2056年5月11日",
+      "per_right": 360,
       "warrant": true,
       "keywords": [
         "新株予約権",

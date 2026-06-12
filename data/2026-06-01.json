@@ -7,9 +7,9 @@
       "name": "香陵住販株式会社",
       "desc": "訂正臨時報告書",
       "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2033年１月31日",
+      "remaining": 401,
+      "exercise_price": 1,
+      "expire": "2033年1月31日",
       "per_right": null,
       "warrant": true,
       "keywords": [
