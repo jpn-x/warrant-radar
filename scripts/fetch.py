@@ -180,6 +180,9 @@ def xbrl_parse(doc_id: str) -> dict:
                 v = _num(r"新規発行株式数[：:]?(?:普通株式)?([\d,]+)株")
             if v is not None:
                 result["issued"] = v
+        # 補完: 個数 × 1個あたり株数
+        if "issued" not in result and "remaining" in result and "per_right" in result:
+            result["issued"] = result["remaining"] * result["per_right"]
 
         # 行使価額
         if "exercise_price" not in result:
