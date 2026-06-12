@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-06",
+  "entries": [
+    {
+      "docId": "S100XX6F",
+      "sec": "4746",
+      "name": "株式会社東計電算",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年３月26日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100XX8A",
+      "sec": "8289",
+      "name": "株式会社Ｏｌｙｍｐｉｃグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XX95",
+      "sec": "",
+      "name": "ＪＳＲ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2041年2月24日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100XXA1",
+      "sec": "3681",
+      "name": "株式会社ブイキューブ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

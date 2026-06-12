@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-13",
+  "entries": [
+    {
+      "docId": "S100XYAF",
+      "sec": "7085",
+      "name": "株式会社カーブスホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2043年12月31日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100XYAG",
+      "sec": "7085",
+      "name": "株式会社カーブスホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年４月13日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100XYHJ",
+      "sec": "3659",
+      "name": "株式会社ネクソン",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XYI0",
+      "sec": "",
+      "name": "株式会社ロジック・アンド・デザイン",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

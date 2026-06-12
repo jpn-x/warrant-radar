@@ -1,0 +1,65 @@
+{
+  "date": "2026-05-19",
+  "entries": [
+    {
+      "docId": "S100Y4V7",
+      "sec": "5016",
+      "name": "ＪＸ金属株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y4SI",
+      "sec": "2998",
+      "name": "クリアル株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2032年６月２日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y523",
+      "sec": "186A",
+      "name": "株式会社アストロスケールホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2029年５月22日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y52S",
+      "sec": "3294",
+      "name": "株式会社イーグランド",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2044年７月31日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

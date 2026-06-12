@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-01",
+  "entries": [
+    {
+      "docId": "S100Y7U8",
+      "sec": "3495",
+      "name": "香陵住販株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2033年１月31日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    }
+  ]
+}

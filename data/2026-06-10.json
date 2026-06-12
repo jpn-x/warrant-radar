@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-10",
+  "entries": [
+    {
+      "docId": "S100YA1B",
+      "sec": "1711",
+      "name": "株式会社ＳＤＳホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2035年6月27日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100Y9TK",
+      "sec": "7936",
+      "name": "株式会社アシックス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-01",
+  "entries": [
+    {
+      "docId": "S100XW35",
+      "sec": "6857",
+      "name": "株式会社アドバンテスト",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年３月14日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XW9H",
+      "sec": "7088",
+      "name": "株式会社フォーラムエンジニアリング",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XWB4",
+      "sec": "9338",
+      "name": "株式会社ＩＮＦＯＲＩＣＨ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2029年３月16日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

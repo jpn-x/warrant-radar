@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-30",
+  "entries": [
+    {
+      "docId": "S100Y1IC",
+      "sec": "",
+      "name": "ビーピー・ピーエルシー",
+      "desc": "外国会社臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y1LU",
+      "sec": "7157",
+      "name": "ライフネット生命保険株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y18V",
+      "sec": "8604",
+      "name": "野村ホールディングス株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y18W",
+      "sec": "8604",
+      "name": "野村ホールディングス株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "発行登録"
+      ]
+    },
+    {
+      "docId": "S100Y1HP",
+      "sec": "4174",
+      "name": "株式会社アピリッツ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100XYZF",
+      "sec": "2484",
+      "name": "株式会社出前館",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年４月30日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100XYZH",
+      "sec": "2484",
+      "name": "株式会社出前館",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年４月30日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y1OT",
+      "sec": "7105",
+      "name": "三菱ロジスネクスト株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2048年８月24日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y1RK",
+      "sec": "3798",
+      "name": "ＵＬＳグループ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年９月30日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y1I7",
+      "sec": "7751",
+      "name": "キヤノン株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2056年４月30日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-05-26",
+  "entries": [
+    {
+      "docId": "S100Y6M6",
+      "sec": "5618",
+      "name": "ナイル株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年６月11日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    }
+  ]
+}

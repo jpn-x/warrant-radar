@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-16",
+  "entries": [
+    {
+      "docId": "S100XZ8R",
+      "sec": "4382",
+      "name": "ＨＥＲＯＺ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XZB7",
+      "sec": "",
+      "name": "マイクロソフトコーポレーション",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XZEJ",
+      "sec": "6424",
+      "name": "株式会社高見沢サイバネティックス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100XZFX",
+      "sec": "350A",
+      "name": "デジタルグリッド株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年２月19日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

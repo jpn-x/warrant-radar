@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-11",
+  "entries": [
+    {
+      "docId": "S100YAM1",
+      "sec": "3031",
+      "name": "株式会社ラクーンホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2034年６月30日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100YA7O",
+      "sec": "7777",
+      "name": "株式会社スリー・ディー・マトリックス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

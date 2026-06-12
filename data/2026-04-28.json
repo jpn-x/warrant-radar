@@ -1,0 +1,35 @@
+{
+  "date": "2026-04-28",
+  "entries": [
+    {
+      "docId": "S100Y0YV",
+      "sec": "",
+      "name": "ネットアップ・インク",
+      "desc": "外国会社臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y1HK",
+      "sec": "2692",
+      "name": "伊藤忠食品株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

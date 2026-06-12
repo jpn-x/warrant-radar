@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-07",
+  "entries": [
+    {
+      "docId": "S100XXB3",
+      "sec": "7532",
+      "name": "株式会社パン・パシフィック・インターナショナルホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}

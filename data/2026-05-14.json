@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-14",
+  "entries": [
+    {
+      "docId": "S100Y3XZ",
+      "sec": "7545",
+      "name": "株式会社西松屋チェーン",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100Y42D",
+      "sec": "7545",
+      "name": "株式会社西松屋チェーン",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2030年５月31日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行",
+        "ストックオプション"
+      ]
+    },
+    {
+      "docId": "S100Y3IT",
+      "sec": "4593",
+      "name": "株式会社ヘリオス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y2O1",
+      "sec": "8604",
+      "name": "野村ホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y3YJ",
+      "sec": "6069",
+      "name": "トレンダーズ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年５月28日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y43H",
+      "sec": "9337",
+      "name": "株式会社トリドリ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年５月28日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y40Z",
+      "sec": "485A",
+      "name": "株式会社パワーエックス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2030年５月28日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y43F",
+      "sec": "8425",
+      "name": "みずほリース株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    },
+    {
+      "docId": "S100Y44H",
+      "sec": "7685",
+      "name": "株式会社ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年３月31日",
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権",
+        "新株の発行"
+      ]
+    },
+    {
+      "docId": "S100Y44M",
+      "sec": "543A",
+      "name": "ＡＲＣＨＩＯＮ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true,
+      "keywords": [
+        "新株予約権"
+      ]
+    }
+  ]
+}
