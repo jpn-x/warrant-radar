@@ -202,9 +202,75 @@ def xbrl_parse(doc_id: str) -> dict:
             if m:
                 result["expire"] = m.group(1)
 
+        # ── AI抽出: 正規表現で取り切れなかった項目をClaudeで補完 ──
+        missing = [k for k in ("remaining", "per_right", "issued", "exercise_price", "expire")
+                   if k not in result]
+        if missing and os.environ.get("ANTHROPIC_API_KEY"):
+            ai = ai_extract(plain)
+            for k in missing:
+                if ai.get(k) is not None:
+                    result[k] = ai[k]
+        if "issued" not in result and "remaining" in result and "per_right" in result:
+            result["issued"] = result["remaining"] * result["per_right"]
+
     except Exception as e:
         print(f"    xbrl error {doc_id}: {e}")
     return result
+
+
+def ai_extract(plain_text: str) -> dict:
+    """Claude API (Haiku) で臨時報告書本文から新株予約権の構造化データを抽出する"""
+    key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not key:
+        return {}
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": "claude-haiku-4-5-20251001",
+                "max_tokens": 300,
+                "messages": [{
+                    "role": "user",
+                    "content": (
+                        "以下は新株予約権発行に関する臨時報告書の本文です。"
+                        "次のJSONだけを出力してください（不明な項目はnull）:\n"
+                        '{"remaining": 発行された新株予約権の総数(個・整数), '
+                        '"per_right": 新株予約権1個あたりの株式数(整数), '
+                        '"issued": 行使により交付される株式の総数(株・整数), '
+                        '"exercise_price": 1株あたりの行使価額(円・整数、無償や算定式のみならnull), '
+                        '"expire": 行使期間の最終日("YYYY年M月D日"形式)}\n\n'
+                        + plain_text[:8000]
+                    ),
+                }],
+            },
+            timeout=60,
+        )
+        if r.status_code != 200:
+            print(f"    ai error: {r.status_code} {r.text[:100]}")
+            return {}
+        out = r.json()["content"][0]["text"]
+        m = re.search(r"\{.*\}", out, re.S)
+        if not m:
+            return {}
+        data = json.loads(m.group(0))
+        clean = {}
+        for k in ("remaining", "per_right", "issued", "exercise_price"):
+            v = data.get(k)
+            if isinstance(v, (int, float)) and v > 0:
+                clean[k] = int(v)
+        if isinstance(data.get("expire"), str) and re.match(r"\d{4}年", data["expire"]):
+            clean["expire"] = data["expire"]
+        if clean:
+            print(f"    [AI] 補完: {list(clean.keys())}")
+        return clean
+    except Exception as e:
+        print(f"    ai error: {e}")
+        return {}
 
 
 # ─── エントリ構築 ─────────────────────────────────────────────────────────────
