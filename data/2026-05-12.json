@@ -2,36 +2,6 @@
   "date": "2026-05-12",
   "entries": [
     {
-      "docId": "S100Y39Z",
-      "sec": "7578",
-      "name": "株式会社ニチリョク",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100Y2YQ",
-      "sec": "5660",
-      "name": "神鋼鋼線工業株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100Y3AI",
       "sec": "9757",
       "name": "株式会社船井総研ホールディングス",
@@ -45,21 +15,6 @@
       "keywords": [
         "新株予約権",
         "ストックオプション"
-      ]
-    },
-    {
-      "docId": "S100Y327",
-      "sec": "8789",
-      "name": "フィンテック　グローバル株式会社",
-      "desc": "訂正臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     }
   ]

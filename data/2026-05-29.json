@@ -2,37 +2,6 @@
   "date": "2026-05-29",
   "entries": [
     {
-      "docId": "S100Y6N9",
-      "sec": "2338",
-      "name": "クオンタムソリューションズ株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権",
-        "ストックオプション"
-      ]
-    },
-    {
-      "docId": "S100Y7CF",
-      "sec": "4381",
-      "name": "ビープラッツ株式会社",
-      "desc": "訂正臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100Y7QD",
       "sec": "485A",
       "name": "株式会社パワーエックス",

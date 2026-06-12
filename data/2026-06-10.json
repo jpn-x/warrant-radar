@@ -17,21 +17,6 @@
         "新株の発行",
         "ストックオプション"
       ]
-    },
-    {
-      "docId": "S100Y9TK",
-      "sec": "7936",
-      "name": "株式会社アシックス",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
     }
   ]
 }

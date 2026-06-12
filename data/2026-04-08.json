@@ -2,36 +2,6 @@
   "date": "2026-04-08",
   "entries": [
     {
-      "docId": "S100XXNN",
-      "sec": "",
-      "name": "ＨＰ　インク",
-      "desc": "外国会社臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100XXP0",
-      "sec": "1726",
-      "name": "株式会社ビーアールホールディングス",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2045年7月27日",
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100XXRI",
       "sec": "4194",
       "name": "ビジョナル株式会社",
@@ -39,21 +9,6 @@
       "issued": null,
       "remaining": 1000,
       "exercise_price": 32700,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100XXRP",
-      "sec": "3681",
-      "name": "株式会社ブイキューブ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
       "expire": null,
       "per_right": null,
       "warrant": true,

@@ -18,51 +18,6 @@
       ]
     },
     {
-      "docId": "S100Y62W",
-      "sec": "6702",
-      "name": "富士通株式会社",
-      "desc": "訂正臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100Y68D",
-      "sec": "4553",
-      "name": "東和薬品株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100Y69P",
-      "sec": "4263",
-      "name": "サスメド株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100Y69S",
       "sec": "4413",
       "name": "株式会社ボードルア",

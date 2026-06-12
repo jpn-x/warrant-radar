@@ -2,22 +2,6 @@
   "date": "2026-04-27",
   "entries": [
     {
-      "docId": "S100Y131",
-      "sec": "4596",
-      "name": "窪田製薬ホールディングス株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権",
-        "ストックオプション"
-      ]
-    },
-    {
       "docId": "S100Y16G",
       "sec": "9941",
       "name": "太洋物産株式会社",
@@ -49,21 +33,6 @@
         "新株予約権",
         "新株の発行",
         "ストックオプション"
-      ]
-    },
-    {
-      "docId": "S100Y16I",
-      "sec": "9941",
-      "name": "太洋物産株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     }
   ]

@@ -32,36 +32,6 @@
         "新株予約権",
         "新株の発行"
       ]
-    },
-    {
-      "docId": "S100Y08O",
-      "sec": "3546",
-      "name": "アレンザホールディングス株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2044年6月10日",
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100Y0KT",
-      "sec": "9338",
-      "name": "株式会社ＩＮＦＯＲＩＣＨ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2029年3月16日",
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
     }
   ]
 }

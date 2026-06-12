@@ -69,13 +69,19 @@ def xbrl_parse(doc_id: str) -> dict:
                 return result
             txt = zf.read(honbun).decode("utf-8", errors="ignore")
 
-        # 新株予約権関連でなければスキップ
-        matched = [kw for kw in WARRANT_KEYWORDS if kw in txt]
-        if not matched:
+        # 新株予約権「発行」の臨時報告書のみ対象
+        # 法的根拠: 企業内容等の開示に関する内閣府令 第19条第2項第2号の2
+        # （株主総会決議・TOB・借入契約等で単に「新株予約権」に言及するだけの報告書を除外）
+        norm = txt.replace("２", "2").replace("９", "9").replace("１", "1")
+        is_warrant_report = (
+            ("第19条第2項第2号の2" in norm) or
+            ("第2号の2" in norm and "新株予約権" in txt) or
+            # 第2号: 株券等の募集（新株予約権証券含む）
+            ("第19条第2項第2号" in norm and "新株予約権証券" in txt)
+        )
+        if not is_warrant_report:
             return result
-        # キーワードヒット → 数値が取れなくてもエントリは残す
         result["warrant"] = True
-        result["keywords"] = matched
 
         # 今回行使による新発行株式数
         issued_raw = _ixval(txt,

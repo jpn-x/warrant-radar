@@ -18,21 +18,6 @@
       ]
     },
     {
-      "docId": "S100XX8A",
-      "sec": "8289",
-      "name": "株式会社Ｏｌｙｍｐｉｃグループ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100XX95",
       "sec": "",
       "name": "ＪＳＲ株式会社",
@@ -46,21 +31,6 @@
       "keywords": [
         "新株予約権",
         "ストックオプション"
-      ]
-    },
-    {
-      "docId": "S100XXA1",
-      "sec": "3681",
-      "name": "株式会社ブイキューブ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     }
   ]

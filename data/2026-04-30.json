@@ -2,36 +2,6 @@
   "date": "2026-04-30",
   "entries": [
     {
-      "docId": "S100Y1IC",
-      "sec": "",
-      "name": "ビーピー・ピーエルシー",
-      "desc": "外国会社臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100Y1LU",
-      "sec": "7157",
-      "name": "ライフネット生命保険株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100Y18V",
       "sec": "8604",
       "name": "野村ホールディングス株式会社",
@@ -60,22 +30,6 @@
       "keywords": [
         "新株予約権",
         "発行登録"
-      ]
-    },
-    {
-      "docId": "S100Y1HP",
-      "sec": "4174",
-      "name": "株式会社アピリッツ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権",
-        "ストックオプション"
       ]
     },
     {
@@ -108,21 +62,6 @@
       "keywords": [
         "新株予約権",
         "新株の発行"
-      ]
-    },
-    {
-      "docId": "S100Y1OT",
-      "sec": "7105",
-      "name": "三菱ロジスネクスト株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": "2048年8月24日",
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     },
     {

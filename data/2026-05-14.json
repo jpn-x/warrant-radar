@@ -2,22 +2,6 @@
   "date": "2026-05-14",
   "entries": [
     {
-      "docId": "S100Y3XZ",
-      "sec": "7545",
-      "name": "株式会社西松屋チェーン",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権",
-        "ストックオプション"
-      ]
-    },
-    {
       "docId": "S100Y42D",
       "sec": "7545",
       "name": "株式会社西松屋チェーン",
@@ -32,21 +16,6 @@
         "新株予約権",
         "新株の発行",
         "ストックオプション"
-      ]
-    },
-    {
-      "docId": "S100Y3IT",
-      "sec": "4593",
-      "name": "株式会社ヘリオス",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     },
     {
@@ -113,21 +82,6 @@
       ]
     },
     {
-      "docId": "S100Y43F",
-      "sec": "8425",
-      "name": "みずほリース株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100Y44H",
       "sec": "7685",
       "name": "株式会社ＢｕｙＳｅｌｌ　Ｔｅｃｈｎｏｌｏｇｉｅｓ",
@@ -141,21 +95,6 @@
       "keywords": [
         "新株予約権",
         "新株の発行"
-      ]
-    },
-    {
-      "docId": "S100Y44M",
-      "sec": "543A",
-      "name": "ＡＲＣＨＩＯＮ株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     }
   ]

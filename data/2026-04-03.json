@@ -2,66 +2,6 @@
   "date": "2026-04-03",
   "entries": [
     {
-      "docId": "S100XWP6",
-      "sec": "7063",
-      "name": "株式会社Ｂｉｒｄｍａｎ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100XWP4",
-      "sec": "7063",
-      "name": "株式会社Ｂｉｒｄｍａｎ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100XWUE",
-      "sec": "6232",
-      "name": "株式会社ＡＣＳＬ",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
-      "docId": "S100XWVI",
-      "sec": "7741",
-      "name": "ＨＯＹＡ株式会社",
-      "desc": "訂正臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
-      ]
-    },
-    {
       "docId": "S100XWXR",
       "sec": "2334",
       "name": "株式会社イオレ",
@@ -75,21 +15,6 @@
       "keywords": [
         "新株予約権",
         "新株の発行"
-      ]
-    },
-    {
-      "docId": "S100XWVJ",
-      "sec": "4437",
-      "name": "ｇｏｏｄｄａｙｓホールディングス株式会社",
-      "desc": "臨時報告書",
-      "issued": null,
-      "remaining": null,
-      "exercise_price": null,
-      "expire": null,
-      "per_right": null,
-      "warrant": true,
-      "keywords": [
-        "新株予約権"
       ]
     }
   ]

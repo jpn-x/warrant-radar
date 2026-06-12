@@ -8,18 +8,23 @@ from zoneinfo import ZoneInfo
 for path in sorted(glob.glob(os.path.join(DATA_DIR, "*.json"))):
     with open(path, encoding="utf-8") as f:
         day = json.load(f)
-    changed = False
+    keep = []
     for e in day.get("entries", []):
         xdata = xbrl_parse(e["docId"])
         xdata.pop("keywords", None)
-        if xdata:
+        if xdata.get("warrant"):
             e.update(xdata)
-            changed = True
+            keep.append(e)
         time.sleep(0.3)
-    if changed:
+    dropped = len(day.get("entries", [])) - len(keep)
+    day["entries"] = keep
+    if keep:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(day, f, ensure_ascii=False, indent=2)
-        print(f"{os.path.basename(path)}: updated ({len(day['entries'])} entries)")
+        print(f"{os.path.basename(path)}: {len(keep)} 件 (除外 {dropped})")
+    else:
+        os.remove(path)
+        print(f"{os.path.basename(path)}: 全件除外 → 削除")
 
 now = datetime.now(ZoneInfo("Asia/Tokyo"))
 days = load_all_days()
