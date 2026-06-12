@@ -14,7 +14,7 @@ API_KEY  = os.environ.get("EDINET_API_KEY", "")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 # 臨時報告書 (140) + 訂正臨時報告書 (141) のうち新株予約権関連
-TARGET_CODES = {"140", "141"}
+TARGET_CODES = {"220", "250"}  # 220=臨時報告書, 250=訂正臨時報告書
 WARRANT_KEYWORDS = [
     "新株予約権", "新株の発行", "株式の発行（新株予約権",
     "発行登録", "ストックオプション",

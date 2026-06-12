@@ -22,7 +22,7 @@ from collections import defaultdict
 by_code = defaultdict(list)
 for d in docs:
     by_code[d.get("docTypeCode","")].append(d.get("docDescription") or "")
-for code in sorted(by_code):
+for code in sorted(by_code, key=lambda x: x or ""):
     descs = list(set(by_code[code]))[:3]
     for desc in descs:
         print(f"  [{code}] {desc}")
