@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新株予約権 Radar</title>
+<meta name="description" content="EDINET 臨時報告書から新株予約権行使・潜在希薄化リスクを毎日自動集計">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+:root{
+  --bg:#0d0f14;--surf:#161a23;--border:#252a35;
+  --text:#e8ecf4;--muted:#8892a4;
+  --gold:#f5c842;--green:#3ddc84;--red:#ff5c5c;--blue:#4fa8ff;--purple:#b47fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Hiragino Sans','Noto Sans JP',sans-serif;font-size:14px;min-height:100vh}
+header{background:var(--surf);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{width:32px;height:32px;flex-shrink:0}
+h1{font-size:18px;font-weight:700;color:var(--purple);letter-spacing:.05em}
+.meta{margin-left:auto;font-size:12px;color:var(--muted)}
+main{padding:20px 24px;max-width:1400px;margin:0 auto}
+
+/* 検索 */
+.search-bar{display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.search-label{color:var(--text);font-weight:600;font-size:13px;white-space:nowrap}
+.search-input{background:var(--surf);border:1px solid var(--gold);color:var(--text);padding:6px 12px;border-radius:6px;font-size:13px;width:200px;outline:none}
+.search-input::placeholder{color:var(--muted)}
+.btn-clear{background:none;border:1px solid var(--border);color:var(--muted);padding:5px 12px;border-radius:6px;cursor:pointer;font-size:12px}
+.btn-clear:hover{border-color:var(--text);color:var(--text)}
+.search-hint{font-size:12px;color:var(--muted);margin-bottom:16px}
+.search-meta{font-size:12px;color:var(--muted);margin-bottom:8px}
+
+/* タブ */
+.tab-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tab-btn{background:none;border:1px solid var(--text);color:var(--text);padding:5px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600}
+.tab-btn.active{background:rgba(180,127,255,.15);border-color:var(--purple);color:var(--purple)}
+
+/* テーブル */
+.panel-meta{font-size:12px;color:var(--muted);margin-bottom:8px}
+.wrap{overflow-x:auto;border-radius:10px;border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse}
+thead th{background:#1c2130;padding:9px 12px;text-align:left;color:var(--text);font-size:11px;font-weight:600;white-space:nowrap;border-bottom:1px solid var(--border)}
+tbody tr{border-bottom:1px solid var(--border)}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:rgba(255,255,255,.03)}
+td{padding:9px 12px;vertical-align:middle;font-size:13px}
+.td-date{color:var(--muted);font-size:12px;white-space:nowrap}
+.td-code{font-weight:700}
+.code-link{color:var(--gold);text-decoration:none}
+.code-link:hover{text-decoration:underline}
+.td-name{color:var(--text)}
+.td-issued{color:var(--blue);text-align:right;white-space:nowrap}
+.td-remaining{color:var(--text);text-align:right;white-space:nowrap}
+.td-potential{color:var(--red);font-weight:700;text-align:right;white-space:nowrap}
+.td-price{color:var(--green);text-align:right;white-space:nowrap}
+.td-expire{color:var(--muted);font-size:12px;white-space:nowrap}
+.btn-pdf{display:inline-block;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(79,168,255,.1);color:var(--blue);border:1px solid rgba(79,168,255,.3);text-decoration:none;white-space:nowrap}
+.btn-pdf:hover{background:rgba(79,168,255,.2)}
+
+/* 凡例 */
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px;padding:12px 16px;background:var(--surf);border-radius:8px;border:1px solid var(--border)}
+.legend-item{font-size:12px;color:var(--muted)}
+.legend-item span{font-weight:700}
+.lc-blue{color:var(--blue)}
+.lc-red{color:var(--red)}
+.lc-green{color:var(--green)}
+
+/* 検索パネル */
+#search-panel{display:none}
+footer{text-align:center;padding:32px 16px;color:var(--muted);font-size:12px;line-height:2}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+  <svg class="logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="#1c1f2e"/>
+    <text x="4" y="23" font-size="20">⚠️</text>
+  </svg>
+  <h1>新株予約権 Radar</h1>
+  <div class="meta">
+    更新: 2026年06月12日 14:33 JST ｜
+    データ: <a href="https://disclosure.edinet-fsa.go.jp/" target="_blank">EDINET</a> ｜
+    累計 0 日 / 0 件
+  </div>
+</header>
+<main>
+
+<div class="legend">
+  <div class="legend-item"><span class="lc-blue">今回行使発行株数</span> — この報告で実際に行使・発行された株数</div>
+  <div class="legend-item"><span class="lc-red">潜在株数</span> — 残存個数×行使株数（将来の希薄化リスク）</div>
+  <div class="legend-item"><span class="lc-green">行使価格</span> — これより株価が高いと行使されやすい</div>
+</div>
+
+<div class="search-bar">
+  <span class="search-label">コード検索</span>
+  <input id="inp-code" class="search-input" type="text" placeholder="例: 3191, 4385"
+    list="dl-code" oninput="doSearch()" autocomplete="off">
+  <datalist id="dl-code"></datalist>
+  <span class="search-label">会社名検索</span>
+  <input id="inp-name" class="search-input" type="text" placeholder="例: enish"
+    list="dl-name" oninput="doSearch()" autocomplete="off">
+  <datalist id="dl-name"></datalist>
+  <button class="btn-clear" onclick="clearSearch()">✕ クリア</button>
+</div>
+<div class="search-hint">※ コード番号または会社名で全期間のデータを絞り込めます</div>
+
+<div id="search-panel">
+  <div id="search-meta" class="search-meta"></div>
+  <div class="wrap"><table style="table-layout:fixed;width:100%">
+  <colgroup>
+    <col style="width:100px"><col style="width:70px"><col style="width:200px">
+    <col style="width:110px"><col style="width:90px"><col style="width:100px">
+    <col style="width:80px"><col style="width:110px"><col style="width:50px">
+  </colgroup>
+  <thead><tr>
+    <th>報告日</th><th>コード</th><th>会社名</th>
+    <th>今回行使発行株数</th><th>残存個数</th><th>潜在株数</th>
+    <th>行使価格</th><th>行使期限</th><th></th>
+  </tr></thead>
+  <tbody id="search-tbody"></tbody>
+  </table></div>
+</div>
+
+<div id="tab-bar" class="tab-bar"></div>
+
+
+</main>
+<footer>
+  新株予約権 Radar — EDINET 臨時報告書（新株予約権行使）毎日自動集計<br>
+  データ取得元: EDINET（金融庁 電子開示システム）<br>
+  当サイトは情報提供のみを目的としています。投資判断は自己責任でお願いします。
+</footer>
+<script>
+const ALL = [];
+
+function rowHtml(e) {
+  const sec  = e.sec || '';
+  const name = e.name || '—';
+  const pdf  = `https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?${e.docId},,`;
+  const code = sec ? `<a href="https://finance.yahoo.co.jp/quote/${sec}.T" target="_blank" class="code-link">${sec}</a>` : '—';
+  const issued    = e.issued    != null ? e.issued.toLocaleString()    + ' 株' : '—';
+  const remaining = e.remaining != null ? e.remaining.toLocaleString() + ' 個' : '—';
+  const per = e.per_right || 100;
+  const potential = e.remaining != null ? (e.remaining * per).toLocaleString() + ' 株' : '—';
+  const ep    = e.exercise_price != null ? '¥' + e.exercise_price.toLocaleString() : '—';
+  const expire = e.expire || '—';
+  return `<tr>
+    <td class="td-date">${e.date}</td>
+    <td class="td-code">${code}</td>
+    <td class="td-name">${name}</td>
+    <td class="td-issued">${issued}</td>
+    <td class="td-remaining">${remaining}</td>
+    <td class="td-potential">${potential}</td>
+    <td class="td-price">${ep}</td>
+    <td class="td-expire">${expire}</td>
+    <td><a href="${pdf}" target="_blank" class="btn-pdf">PDF</a></td>
+  </tr>`;
+}
+
+function doSearch() {
+  const code = document.getElementById('inp-code').value.trim().toUpperCase();
+  const name = document.getElementById('inp-name').value.trim();
+  if (!code && !name) { clearSearch(); return; }
+  const results = ALL.filter(e => {
+    const codeOk = !code || (e.sec || '').toUpperCase().includes(code);
+    const nameOk = !name || (e.name || '').includes(name) || (e.name || '').toLowerCase().includes(name.toLowerCase());
+    return codeOk && nameOk;
+  });
+  document.getElementById('search-tbody').innerHTML = results.map(rowHtml).join('');
+  document.getElementById('search-meta').textContent = `検索結果: ${results.length} 件`;
+  document.getElementById('search-panel').style.display = 'block';
+  document.getElementById('tab-bar').style.display = 'none';
+  document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+  if (code) addHist('code', document.getElementById('inp-code').value.trim());
+  if (name) addHist('name', name);
+}
+
+function clearSearch() {
+  document.getElementById('inp-code').value = '';
+  document.getElementById('inp-name').value = '';
+  document.getElementById('search-panel').style.display = 'none';
+  document.getElementById('tab-bar').style.display = '';
+  switchTab(currentTab);
+}
+
+function switchTab(m) {
+  currentTab = m;
+  document.querySelectorAll('.tab-btn').forEach(b => {
+    b.classList.toggle('active', b.textContent.replace('/','-') === m || b.getAttribute('onclick').includes(m));
+  });
+  document.querySelectorAll('.tab-panel').forEach(p => {
+    p.style.display = p.id === 'panel-' + m ? 'block' : 'none';
+  });
+}
+
+const HIST = { code: 'wr_hist_code', name: 'wr_hist_name' };
+function addHist(t, v) {
+  if (!v) return;
+  let h = JSON.parse(localStorage.getItem(HIST[t]) || '[]');
+  h = [v, ...h.filter(x => x !== v)].slice(0, 10);
+  localStorage.setItem(HIST[t], JSON.stringify(h));
+  updateDatalist(t);
+}
+function updateDatalist(t) {
+  const dl = document.getElementById('dl-' + t);
+  if (!dl) return;
+  const h = JSON.parse(localStorage.getItem(HIST[t]) || '[]');
+  dl.innerHTML = h.map(v => `<option value="${v}">`).join('');
+}
+
+let currentTab = '';
+switchTab('');
+updateDatalist('code');
+updateDatalist('name');
+window.addEventListener('load', () => { if (document.activeElement) document.activeElement.blur(); });
+</script>
+</body>
+</html>

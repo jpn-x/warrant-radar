@@ -1,0 +1,47 @@
+name: Daily Update
+
+on:
+  schedule:
+    - cron: "0 9 * * 1-5"  # 18:00 JST 平日
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "対象日 (YYYY-MM-DD) — 空欄で直近営業日"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fetch
+        env:
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+          EDINET_API_KEY: ${{ secrets.EDINET_API_KEY }}
+        run: python scripts/fetch.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  "warrant-radar[bot]"
+          git config user.email "warrant-radar[bot]@users.noreply.github.com"
+          git add index.html data/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            DATE=$(python -c "from datetime import datetime; from zoneinfo import ZoneInfo; print(datetime.now(ZoneInfo('Asia/Tokyo')).strftime('%Y-%m-%d'))")
+            git commit -m "chore: update warrant data ${DATE}"
+            git pull --rebase
+            git push
+          fi
