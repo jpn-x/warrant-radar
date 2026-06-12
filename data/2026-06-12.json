@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-12",
+  "entries": [
+    {
+      "docId": "S100YAZ3",
+      "sec": "3382",
+      "name": "株式会社セブン＆アイ・ホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YBAR",
+      "sec": "460A",
+      "name": "ＢＲＡＮＵ株式会社",
+      "desc": "臨時報告書",
+      "issued": 150000,
+      "remaining": 1500,
+      "exercise_price": null,
+      "expire": "2036年6月12日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YB8R",
+      "sec": "3053",
+      "name": "株式会社ペッパーフードサービス",
+      "desc": "臨時報告書",
+      "issued": 1288000,
+      "remaining": 12880,
+      "exercise_price": 195,
+      "expire": "2031年2月28日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YBA8",
+      "sec": "6995",
+      "name": "株式会社東海理化電機製作所",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
