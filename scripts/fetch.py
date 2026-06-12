@@ -66,12 +66,16 @@ def xbrl_parse(doc_id: str) -> dict:
             honbun = next((n for n in htm_files if "honbun" in n), None) \
                   or (htm_files[0] if htm_files else None)
             if not honbun:
+                print(f"    [debug] {doc_id}: ZIP内にhtmなし (files={names[:5]})")
                 return result
             txt = zf.read(honbun).decode("utf-8", errors="ignore")
+            print(f"    [debug] {doc_id}: {honbun} ({len(txt)}chars)")
 
         # 新株予約権関連でなければスキップ
-        if not any(kw in txt for kw in WARRANT_KEYWORDS):
+        matched = [kw for kw in WARRANT_KEYWORDS if kw in txt]
+        if not matched:
             return result
+        print(f"    [debug] キーワードヒット: {matched}")
 
         # 今回行使による新発行株式数
         issued_raw = _ixval(txt,
