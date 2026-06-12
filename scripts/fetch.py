@@ -13,8 +13,8 @@ API_BASE = "https://api.edinet-fsa.go.jp/api/v2"
 API_KEY  = os.environ.get("EDINET_API_KEY", "")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
-# 臨時報告書 (140) + 訂正臨時報告書 (141) のうち新株予約権関連
-TARGET_CODES = {"220", "250"}  # 220=臨時報告書, 250=訂正臨時報告書
+# 臨時報告書 (180) + 訂正臨時報告書 (190)
+TARGET_CODES = {"180", "190"}
 WARRANT_KEYWORDS = [
     "新株予約権", "新株の発行", "株式の発行（新株予約権",
     "発行登録", "ストックオプション",
@@ -24,20 +24,15 @@ WARRANT_KEYWORDS = [
 # ─── EDINET API ───────────────────────────────────────────────────────────────
 
 def fetch_docs(target_date: str) -> list:
+    """臨時報告書 (180/190) を全件取得 — XBRL内容でフィルタリングするため説明文フィルターなし"""
     url = f"{API_BASE}/documents.json"
     params = {"date": target_date, "type": 2, "Subscription-Key": API_KEY}
     r = requests.get(url, params=params, timeout=30)
     r.raise_for_status()
     data = r.json()
     all_docs = data.get("results", [])
-    out = []
-    for d in all_docs:
-        if d.get("docTypeCode", "") not in TARGET_CODES:
-            continue
-        desc = (d.get("docDescription") or "").replace("　", " ")
-        if any(k in desc for k in WARRANT_KEYWORDS):
-            out.append(d)
-    print(f"  {target_date}: 臨時報告書 {len(all_docs)} 件中 新株予約権関連 {len(out)} 件")
+    out = [d for d in all_docs if d.get("docTypeCode", "") in TARGET_CODES]
+    print(f"  {target_date}: 全{len(all_docs)}件中 臨時報告書 {len(out)} 件")
     return out
 
 
@@ -56,7 +51,9 @@ def _ixval(txt: str, *elem_names) -> str | None:
 
 
 def xbrl_parse(doc_id: str) -> dict:
-    """臨時報告書XBRLから新株予約権関連数値を抽出する。取れた分だけ返す。"""
+    """臨時報告書XBRLから新株予約権関連数値を抽出する。
+    WARRANT_KEYWORDSが含まれない場合は空dict(=スキップ)を返す。
+    """
     result = {}
     url = f"{API_BASE}/documents/{doc_id}?type=1&Subscription-Key={API_KEY}"
     try:
@@ -71,6 +68,10 @@ def xbrl_parse(doc_id: str) -> dict:
             if not honbun:
                 return result
             txt = zf.read(honbun).decode("utf-8", errors="ignore")
+
+        # 新株予約権関連でなければスキップ
+        if not any(kw in txt for kw in WARRANT_KEYWORDS):
+            return result
 
         # 今回行使による新発行株式数
         issued_raw = _ixval(txt,
@@ -513,6 +514,10 @@ def fetch_day(target_date: str) -> list:
         e = build_entry(doc)
         print(f"  [{i+1}/{len(docs)}] {e['sec'] or '----':6} {e['name'][:25]:25} | {e['desc'][:40]}")
         xdata = xbrl_parse(e["docId"])
+        if not xdata:
+            print(f"    → 新株予約権関連なし / スキップ")
+            time.sleep(0.3)
+            continue
         e.update(xdata)
         entries.append(e)
         time.sleep(0.4)
