@@ -26,7 +26,7 @@ for date in dates:
 
     # 各コードのdocDescriptionサンプル（重複なし）
     for code in sorted(by_code, key=lambda x: x or ""):
-        descs = list({d.get("docDescription","")[:50] for d in by_code[code]})[:2]
+        descs = list({(d.get("docDescription") or "")[:50] for d in by_code[code]})[:2]
         for desc in descs:
             print(f"  [{code}] {desc}")
 
