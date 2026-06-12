@@ -13,7 +13,7 @@ print(f"Total docs: {len(docs)}")
 # 全docTypeCodeの分布
 codes = Counter(d.get("docTypeCode") for d in docs)
 print("\n=== docTypeCode 分布 ===")
-for code, cnt in sorted(codes.items()):
+for code, cnt in sorted(codes.items(), key=lambda x: x[0] or ""):
     print(f"  [{code}] {cnt}件")
 
 # 全コードの説明文サンプル
