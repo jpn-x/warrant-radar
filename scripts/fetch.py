@@ -73,15 +73,11 @@ def xbrl_parse(doc_id: str) -> dict:
 
         # 新株予約権関連でなければスキップ
         matched = [kw for kw in WARRANT_KEYWORDS if kw in txt]
-        # デバッグ: 本文中の関連語サンプル出力
-        for kw in ["新株", "予約権", "発行", "ストック", "割当"]:
-            if kw in txt:
-                idx = txt.index(kw)
-                print(f"    [kw] '{kw}' found at {idx}: ...{txt[max(0,idx-20):idx+40]}...")
-                break
         if not matched:
             return result
-        print(f"    [debug] キーワードヒット: {matched}")
+        # キーワードヒット → 数値が取れなくてもエントリは残す
+        result["warrant"] = True
+        result["keywords"] = matched
 
         # 今回行使による新発行株式数
         issued_raw = _ixval(txt,
@@ -140,6 +136,43 @@ def xbrl_parse(doc_id: str) -> dict:
                 result["per_right"] = int(re.sub(r"[^\d]", "", per_right_raw))
             except ValueError:
                 pass
+
+        # ── 本文テキストからの正規表現フォールバック ──
+        plain = re.sub(r"<[^>]+>", "", txt)
+        plain = re.sub(r"\s+", "", plain)
+
+        def _num(pattern):
+            m = re.search(pattern, plain)
+            if m:
+                try:
+                    return int(m.group(1).replace(",", ""))
+                except ValueError:
+                    return None
+            return None
+
+        if "issued" not in result:
+            v = _num(r"(?:行使|交付)(?:により|による)?(?:発行|交付)(?:した|する)?株式(?:の)?(?:数|総数)[：:は]?([\d,]+)株")
+            if v is None:
+                v = _num(r"新規発行株式数[：:]?(?:普通株式)?([\d,]+)株")
+            if v is not None:
+                result["issued"] = v
+
+        if "remaining" not in result:
+            v = _num(r"(?:未行使|残存)(?:の)?(?:本)?新株予約権(?:の)?(?:個数|数)[：:は]?([\d,]+)個")
+            if v is not None:
+                result["remaining"] = v
+
+        if "exercise_price" not in result:
+            v = _num(r"行使価額[：:は]?(?:1株(?:当た?り)?)?([\d,]+)円")
+            if v is None:
+                v = _num(r"払込金額[：:は]?(?:1株(?:当た?り)?)?([\d,]+)円")
+            if v is not None:
+                result["exercise_price"] = v
+
+        if "expire" not in result:
+            m = re.search(r"行使期間[：:は]?.{0,30}?(?:から|乃至|～|〜)(\d{4}年\d{1,2}月\d{1,2}日)", plain)
+            if m:
+                result["expire"] = m.group(1)
 
     except Exception as e:
         print(f"    xbrl error {doc_id}: {e}")
