@@ -73,6 +73,12 @@ def xbrl_parse(doc_id: str) -> dict:
 
         # 新株予約権関連でなければスキップ
         matched = [kw for kw in WARRANT_KEYWORDS if kw in txt]
+        # デバッグ: 本文中の関連語サンプル出力
+        for kw in ["新株", "予約権", "発行", "ストック", "割当"]:
+            if kw in txt:
+                idx = txt.index(kw)
+                print(f"    [kw] '{kw}' found at {idx}: ...{txt[max(0,idx-20):idx+40]}...")
+                break
         if not matched:
             return result
         print(f"    [debug] キーワードヒット: {matched}")
