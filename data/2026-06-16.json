@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-16",
+  "entries": [
+    {
+      "docId": "S100YCC4",
+      "sec": "5618",
+      "name": "ナイル株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": 47200,
+      "remaining": 472,
+      "exercise_price": null,
+      "expire": "2036年5月23日",
+      "per_right": 100,
+      "warrant": true
+    }
+  ]
+}
