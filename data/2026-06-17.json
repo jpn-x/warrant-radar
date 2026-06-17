@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-17",
+  "entries": [
+    {
+      "docId": "S100YCVC",
+      "sec": "6101",
+      "name": "株式会社ツガミ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YDBP",
+      "sec": "8253",
+      "name": "株式会社クレディセゾン",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YD6N",
+      "sec": "6532",
+      "name": "株式会社ベイカレント",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YDBJ",
+      "sec": "4593",
+      "name": "株式会社ヘリオス",
+      "desc": "臨時報告書",
+      "issued": 1247100,
+      "remaining": 12471,
+      "exercise_price": null,
+      "expire": "2036年6月16日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YCSH",
+      "sec": "3612",
+      "name": "株式会社ワールド",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
