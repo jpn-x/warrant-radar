@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-19",
+  "entries": [
+    {
+      "docId": "S100YFCZ",
+      "sec": "4401",
+      "name": "株式会社ＡＤＥＫＡ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFFR",
+      "sec": "6652",
+      "name": "ＩＤＥＣ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 2760,
+      "exercise_price": null,
+      "expire": "2030年6月30日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFDR",
+      "sec": "7381",
+      "name": "株式会社ＣＣＩグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YETB",
+      "sec": "9412",
+      "name": "スカパーＪＳＡＴ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFHU",
+      "sec": "4307",
+      "name": "株式会社野村総合研究所",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFHV",
+      "sec": "9021",
+      "name": "西日本旅客鉄道株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YESB",
+      "sec": "8002",
+      "name": "丸紅株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YETW",
+      "sec": "8002",
+      "name": "丸紅株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YF01",
+      "sec": "5831",
+      "name": "株式会社しずおかフィナンシャルグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Y90P",
+      "sec": "7278",
+      "name": "株式会社エクセディ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YF07",
+      "sec": "6988",
+      "name": "日東電工株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YF80",
+      "sec": "6701",
+      "name": "日本電気株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFMV",
+      "sec": "3391",
+      "name": "株式会社ツルハホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
