@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-22",
+  "entries": [
+    {
+      "docId": "S100YBI9",
+      "sec": "7119",
+      "name": "株式会社ハルメクホールディングス",
+      "desc": "臨時報告書",
+      "issued": 100000,
+      "remaining": null,
+      "exercise_price": 1630,
+      "expire": "2035年6月30日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFHZ",
+      "sec": "5938",
+      "name": "株式会社ＬＩＸＩＬ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YFTV",
+      "sec": "4568",
+      "name": "第一三共株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YGQI",
+      "sec": "9697",
+      "name": "株式会社カプコン",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YGXL",
+      "sec": "7832",
+      "name": "株式会社バンダイナムコホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YDXM",
+      "sec": "6923",
+      "name": "スタンレー電気株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YG1G",
+      "sec": "8267",
+      "name": "イオン株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 599,
+      "exercise_price": 1,
+      "expire": "2041年7月20日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YG7D",
+      "sec": "6752",
+      "name": "パナソニックホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YG8I",
+      "sec": "6752",
+      "name": "パナソニックホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YH0C",
+      "sec": "8725",
+      "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
