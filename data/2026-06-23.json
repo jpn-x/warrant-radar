@@ -1,0 +1,173 @@
+{
+  "date": "2026-06-23",
+  "entries": [
+    {
+      "docId": "S100YHA9",
+      "sec": "8750",
+      "name": "株式会社第一ライフグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHAG",
+      "sec": "8750",
+      "name": "株式会社第一ライフグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHAR",
+      "sec": "8750",
+      "name": "株式会社第一ライフグループ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHWZ",
+      "sec": "5076",
+      "name": "インフロニア・ホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YI3G",
+      "sec": "8015",
+      "name": "豊田通商株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YI6J",
+      "sec": "9434",
+      "name": "ソフトバンク株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 30960,
+      "exercise_price": null,
+      "expire": "2033年7月31日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHAO",
+      "sec": "7014",
+      "name": "株式会社名村造船所",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YH45",
+      "sec": "9551",
+      "name": "メタウォーター株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHKZ",
+      "sec": "9682",
+      "name": "株式会社ＤＴＳ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YIAU",
+      "sec": "8591",
+      "name": "オリックス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YI1G",
+      "sec": "3237",
+      "name": "株式会社イントランス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": 96,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YI3W",
+      "sec": "8377",
+      "name": "株式会社ほくほくフィナンシャルグループ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YI91",
+      "sec": "5332",
+      "name": "ＴＯＴＯ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YHII",
+      "sec": "4536",
+      "name": "参天製薬株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
