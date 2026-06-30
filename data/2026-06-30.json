@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-30",
+  "entries": [
+    {
+      "docId": "S100YNGS",
+      "sec": "7741",
+      "name": "ＨＯＹＡ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNHF",
+      "sec": "7741",
+      "name": "ＨＯＹＡ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YM4V",
+      "sec": "",
+      "name": "インターナショナル・ビジネス・マシーンズ・コーポレーション",
+      "desc": "外国会社臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNAC",
+      "sec": "4911",
+      "name": "株式会社資生堂",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNB6",
+      "sec": "4568",
+      "name": "第一三共株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNPP",
+      "sec": "3086",
+      "name": "Ｊ．フロント　リテイリング株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNQR",
+      "sec": "6758",
+      "name": "ソニーグループ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNT8",
+      "sec": "4413",
+      "name": "株式会社ボードルア",
+      "desc": "訂正臨時報告書",
+      "issued": 839400,
+      "remaining": 8394,
+      "exercise_price": 2394,
+      "expire": "2036年6月29日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YN4W",
+      "sec": "2334",
+      "name": "株式会社イオレ",
+      "desc": "臨時報告書",
+      "issued": 222000,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2036年3月31日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
