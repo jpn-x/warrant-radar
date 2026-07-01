@@ -1,0 +1,113 @@
+{
+  "date": "2026-07-01",
+  "entries": [
+    {
+      "docId": "S100YO0U",
+      "sec": "6762",
+      "name": "ＴＤＫ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YO04",
+      "sec": "9990",
+      "name": "株式会社サックスバーホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNTW",
+      "sec": "9517",
+      "name": "イーレックス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNUM",
+      "sec": "7085",
+      "name": "株式会社カーブスホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": 1666000,
+      "remaining": 16660,
+      "exercise_price": 779,
+      "expire": "2043年12月31日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNUN",
+      "sec": "7085",
+      "name": "株式会社カーブスホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": 258000,
+      "remaining": 2580,
+      "exercise_price": 779,
+      "expire": "2036年4月13日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNXN",
+      "sec": "4689",
+      "name": "ＬＩＮＥヤフー株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 22950,
+      "exercise_price": null,
+      "expire": "2036年7月18日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YO4V",
+      "sec": "5707",
+      "name": "東邦亜鉛株式会社",
+      "desc": "臨時報告書",
+      "issued": 40900,
+      "remaining": 409,
+      "exercise_price": 909,
+      "expire": "2036年6月13日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YO1P",
+      "sec": "6777",
+      "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YO6E",
+      "sec": "9616",
+      "name": "株式会社共立メンテナンス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
