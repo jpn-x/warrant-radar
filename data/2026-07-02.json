@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-02",
+  "entries": [
+    {
+      "docId": "S100YOE0",
+      "sec": "285A",
+      "name": "キオクシアホールディングス株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YNZO",
+      "sec": "460A",
+      "name": "ＢＲＡＮＵ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": 150000,
+      "remaining": 1500,
+      "exercise_price": null,
+      "expire": "2036年6月12日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOFX",
+      "sec": "9246",
+      "name": "株式会社プロジェクトホールディングス",
+      "desc": "臨時報告書",
+      "issued": 49200,
+      "remaining": 492,
+      "exercise_price": null,
+      "expire": "2036年3月17日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOGD",
+      "sec": "9850",
+      "name": "株式会社グルメ杵屋",
+      "desc": "訂正臨時報告書",
+      "issued": 743000,
+      "remaining": 7430,
+      "exercise_price": 941,
+      "expire": "2036年6月30日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOGJ",
+      "sec": "4593",
+      "name": "株式会社ヘリオス",
+      "desc": "訂正臨時報告書",
+      "issued": 1247100,
+      "remaining": 12471,
+      "exercise_price": 286,
+      "expire": "2036年6月16日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
