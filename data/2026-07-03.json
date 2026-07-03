@@ -1,0 +1,89 @@
+{
+  "date": "2026-07-03",
+  "entries": [
+    {
+      "docId": "S100YOI2",
+      "sec": "9336",
+      "name": "大栄環境株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOPR",
+      "sec": "9612",
+      "name": "株式会社ラックランド",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOPK",
+      "sec": "2269",
+      "name": "明治ホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOI0",
+      "sec": "6455",
+      "name": "株式会社モリタホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOHL",
+      "sec": "4617",
+      "name": "中国塗料株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOO8",
+      "sec": "9076",
+      "name": "セイノーホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YONG",
+      "sec": "4689",
+      "name": "ＬＩＮＥヤフー株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
