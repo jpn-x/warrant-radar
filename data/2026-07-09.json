@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-09",
+  "entries": [
+    {
+      "docId": "S100YPJY",
+      "sec": "4825",
+      "name": "株式会社ウェザーニューズ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YP1Q",
+      "sec": "1925",
+      "name": "大和ハウス工業株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPRT",
+      "sec": "7294",
+      "name": "株式会社ヨロズ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOUT",
+      "sec": "4118",
+      "name": "株式会社カネカ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 158,
+      "exercise_price": 1,
+      "expire": "2051年8月14日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPPL",
+      "sec": "4088",
+      "name": "エア・ウォーター株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
