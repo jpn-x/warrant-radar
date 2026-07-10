@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-10",
+  "entries": [
+    {
+      "docId": "S100YPU0",
+      "sec": "4042",
+      "name": "東ソー株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPYO",
+      "sec": "1882",
+      "name": "東亜道路工業株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPUY",
+      "sec": "3763",
+      "name": "株式会社プロシップ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPY0",
+      "sec": "4318",
+      "name": "株式会社クイック",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOPC",
+      "sec": "6098",
+      "name": "株式会社リクルートホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 5937,
+      "exercise_price": null,
+      "expire": "2036年7月26日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPM5",
+      "sec": "7504",
+      "name": "株式会社高速",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPXF",
+      "sec": "4202",
+      "name": "株式会社ダイセル",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPXJ",
+      "sec": "4202",
+      "name": "株式会社ダイセル",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPXN",
+      "sec": "4202",
+      "name": "株式会社ダイセル",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPMD",
+      "sec": "4819",
+      "name": "株式会社デジタルガレージ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 113846,
+      "exercise_price": null,
+      "expire": "2076年7月10日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQ1P",
+      "sec": "4385",
+      "name": "株式会社メルカリ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPXT",
+      "sec": "2379",
+      "name": "ディップ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
