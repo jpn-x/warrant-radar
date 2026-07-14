@@ -1,0 +1,101 @@
+{
+  "date": "2026-07-14",
+  "entries": [
+    {
+      "docId": "S100YQG6",
+      "sec": "6652",
+      "name": "ＩＤＥＣ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 2760,
+      "exercise_price": 3383,
+      "expire": "2030年6月30日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQHB",
+      "sec": "8043",
+      "name": "スターゼン株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQDF",
+      "sec": "7318",
+      "name": "セレンディップ・ホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 338,
+      "exercise_price": null,
+      "expire": "2034年7月22日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQB0",
+      "sec": "9936",
+      "name": "株式会社王将フードサービス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQHL",
+      "sec": "8085",
+      "name": "ナラサキ産業株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPQM",
+      "sec": "7269",
+      "name": "スズキ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YOCH",
+      "sec": "5706",
+      "name": "三井金属株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQ5S",
+      "sec": "5280",
+      "name": "ヨシコン株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
