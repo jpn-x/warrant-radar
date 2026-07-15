@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-15",
+  "entries": [
+    {
+      "docId": "S100YQDS",
+      "sec": "1833",
+      "name": "株式会社奥村組",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YPV4",
+      "sec": "2175",
+      "name": "株式会社エス・エム・エス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQPU",
+      "sec": "6237",
+      "name": "株式会社イワキ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQP2",
+      "sec": "6254",
+      "name": "野村マイクロ・サイエンス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 2545,
+      "exercise_price": null,
+      "expire": "2033年8月18日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQQU",
+      "sec": "9104",
+      "name": "株式会社　商船三井",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQM5",
+      "sec": "5258",
+      "name": "株式会社トランザクション・メディア・ネットワークス",
+      "desc": "臨時報告書",
+      "issued": 2500000,
+      "remaining": 25000,
+      "exercise_price": null,
+      "expire": "2035年7月31日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQM0",
+      "sec": "1418",
+      "name": "インターライフホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQU6",
+      "sec": "6890",
+      "name": "株式会社フェローテック",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQU3",
+      "sec": "8595",
+      "name": "ジャフコ　グループ株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQVE",
+      "sec": "4262",
+      "name": "ニフティライフスタイル株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 750,
+      "exercise_price": 1404,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
