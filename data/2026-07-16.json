@@ -1,0 +1,113 @@
+{
+  "date": "2026-07-16",
+  "entries": [
+    {
+      "docId": "S100YQX9",
+      "sec": "9424",
+      "name": "日本通信株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQYN",
+      "sec": "4543",
+      "name": "テルモ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQMS",
+      "sec": "9064",
+      "name": "ヤマトホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQW4",
+      "sec": "3232",
+      "name": "三重交通グループホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQYA",
+      "sec": "2433",
+      "name": "株式会社博報堂ＤＹホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQVM",
+      "sec": "8508",
+      "name": "Ｊトラスト株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR1U",
+      "sec": "7458",
+      "name": "株式会社第一興商",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 913,
+      "exercise_price": null,
+      "expire": "2066年7月15日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR2H",
+      "sec": "4483",
+      "name": "株式会社ＪＭＤＣ",
+      "desc": "訂正臨時報告書",
+      "issued": 654000,
+      "remaining": 6540,
+      "exercise_price": 3215,
+      "expire": "2035年7月31日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YQYO",
+      "sec": "9850",
+      "name": "株式会社グルメ杵屋",
+      "desc": "臨時報告書",
+      "issued": 743000,
+      "remaining": 7430,
+      "exercise_price": 965,
+      "expire": "2034年6月30日",
+      "per_right": 100,
+      "warrant": true
+    }
+  ]
+}
