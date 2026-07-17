@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-17",
+  "entries": [
+    {
+      "docId": "S100YR6F",
+      "sec": "9684",
+      "name": "株式会社スクウェア・エニックス・ホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 2362,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR3B",
+      "sec": "8708",
+      "name": "アイザワ証券グループ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR3J",
+      "sec": "8704",
+      "name": "トレイダーズホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 1776,
+      "exercise_price": null,
+      "expire": "2036年7月17日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR3K",
+      "sec": "8704",
+      "name": "トレイダーズホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR9H",
+      "sec": "5985",
+      "name": "サンコール株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR56",
+      "sec": "7238",
+      "name": "曙ブレーキ工業株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 6980,
+      "exercise_price": null,
+      "expire": "2032年8月7日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR92",
+      "sec": "4571",
+      "name": "ＮＡＮＯホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YR1R",
+      "sec": "5078",
+      "name": "株式会社セレコーポレーション",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRAA",
+      "sec": "4973",
+      "name": "日本高純度化学株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 186,
+      "exercise_price": null,
+      "expire": "2031年6月30日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRA6",
+      "sec": "9434",
+      "name": "ソフトバンク株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 30840,
+      "exercise_price": null,
+      "expire": "2033年7月31日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
