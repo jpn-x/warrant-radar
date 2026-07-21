@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-21",
+  "entries": [
+    {
+      "docId": "S100YRCH",
+      "sec": "7874",
+      "name": "レック株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRHK",
+      "sec": "7419",
+      "name": "株式会社ノジマ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年7月21日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRIJ",
+      "sec": "7164",
+      "name": "全国保証株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRJ1",
+      "sec": "7235",
+      "name": "東京ラヂエーター製造株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
