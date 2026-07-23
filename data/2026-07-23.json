@@ -1,0 +1,89 @@
+{
+  "date": "2026-07-23",
+  "entries": [
+    {
+      "docId": "S100YRWV",
+      "sec": "6954",
+      "name": "ファナック株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YS1W",
+      "sec": "9880",
+      "name": "イノテック株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YS2J",
+      "sec": "2134",
+      "name": "北浜キャピタルパートナーズ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRV5",
+      "sec": "6146",
+      "name": "株式会社ディスコ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRV8",
+      "sec": "6146",
+      "name": "株式会社ディスコ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 36,
+      "exercise_price": null,
+      "expire": "2034年8月7日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YS38",
+      "sec": "4389",
+      "name": "プロパティデータバンク株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YRYU",
+      "sec": "8715",
+      "name": "アニコム　ホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
