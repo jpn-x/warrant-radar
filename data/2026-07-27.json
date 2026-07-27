@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-27",
+  "entries": [
+    {
+      "docId": "S100YRSG",
+      "sec": "7318",
+      "name": "セレンディップ・ホールディングス株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 338,
+      "exercise_price": null,
+      "expire": "2034年7月22日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSCP",
+      "sec": "2288",
+      "name": "丸大食品株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSF6",
+      "sec": "4689",
+      "name": "ＬＩＮＥヤフー株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 22950,
+      "exercise_price": null,
+      "expire": "2036年7月18日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSIP",
+      "sec": "6380",
+      "name": "オリエンタルチエン工業株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 1030,
+      "exercise_price": 4055,
+      "expire": "2036年6月24日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSCB",
+      "sec": "6098",
+      "name": "株式会社リクルートホールディングス",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 5937,
+      "exercise_price": 12510,
+      "expire": "2036年7月26日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSGO",
+      "sec": "8698",
+      "name": "マネックスグループ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
