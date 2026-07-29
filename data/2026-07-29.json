@@ -1,0 +1,113 @@
+{
+  "date": "2026-07-29",
+  "entries": [
+    {
+      "docId": "S100YSTI",
+      "sec": "9303",
+      "name": "株式会社住友倉庫",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSNV",
+      "sec": "8111",
+      "name": "株式会社ゴールドウイン",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSXR",
+      "sec": "6822",
+      "name": "大井電気株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSZT",
+      "sec": "4385",
+      "name": "株式会社メルカリ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSUN",
+      "sec": "4689",
+      "name": "ＬＩＮＥヤフー株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 31528,
+      "exercise_price": null,
+      "expire": "2036年7月29日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSUT",
+      "sec": "4689",
+      "name": "ＬＩＮＥヤフー株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSS7",
+      "sec": "9506",
+      "name": "東北電力株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YT11",
+      "sec": "",
+      "name": "ＪＳＲ株式会社",
+      "desc": "臨時報告書",
+      "issued": 67700,
+      "remaining": 67700,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": 1,
+      "warrant": true
+    },
+    {
+      "docId": "S100YT0Z",
+      "sec": "4431",
+      "name": "株式会社スマレジ",
+      "desc": "臨時報告書",
+      "issued": 300000,
+      "remaining": 3000,
+      "exercise_price": 3160,
+      "expire": "2041年4月30日",
+      "per_right": 100,
+      "warrant": true
+    }
+  ]
+}
