@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-03",
+  "entries": [
+    {
+      "docId": "S100YSUQ",
+      "sec": "8601",
+      "name": "株式会社大和証券グループ本社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 39242,
+      "exercise_price": null,
+      "expire": "2036年8月2日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YTVC",
+      "sec": "218A",
+      "name": "株式会社Ｌｉｂｅｒａｗａｒｅ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 209900,
+      "exercise_price": 1072,
+      "expire": "2036年8月3日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
