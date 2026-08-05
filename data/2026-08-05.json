@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-05",
+  "entries": [
+    {
+      "docId": "S100YU6D",
+      "sec": "7419",
+      "name": "株式会社ノジマ",
+      "desc": "訂正臨時報告書",
+      "issued": 1,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": "2031年7月21日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YUBE",
+      "sec": "7460",
+      "name": "株式会社ヤギ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YTM7",
+      "sec": "1812",
+      "name": "鹿島建設株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YSWS",
+      "sec": "4635",
+      "name": "東京インキ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YUCW",
+      "sec": "1719",
+      "name": "株式会社安藤・間",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YU8B",
+      "sec": "1803",
+      "name": "清水建設株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YU6T",
+      "sec": "9006",
+      "name": "京浜急行電鉄株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YUAI",
+      "sec": "6822",
+      "name": "大井電気株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
