@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-10",
+  "entries": [
+    {
+      "docId": "S100YVIF",
+      "sec": "4208",
+      "name": "ＵＢＥ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YVJG",
+      "sec": "8897",
+      "name": "ＭＩＲＡＲＴＨホールディングス株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 9100,
+      "exercise_price": null,
+      "expire": "2066年8月10日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YTE3",
+      "sec": "6785",
+      "name": "株式会社鈴木",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YVSM",
+      "sec": "6424",
+      "name": "株式会社高見沢サイバネティックス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YVJU",
+      "sec": "8219",
+      "name": "青山商事株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
