@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-14",
+  "entries": [
+    {
+      "docId": "S100YWZU",
+      "sec": "6047",
+      "name": "株式会社Ｇｕｎｏｓｙ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 3162000,
+      "exercise_price": null,
+      "expire": "2033年8月28日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YX27",
+      "sec": "4417",
+      "name": "グローバルセキュリティエキスパート株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YX0Q",
+      "sec": "4118",
+      "name": "株式会社カネカ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 153,
+      "exercise_price": 1,
+      "expire": "2051年8月14日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
