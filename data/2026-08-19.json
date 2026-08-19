@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-19",
+  "entries": [
+    {
+      "docId": "S100YWYK",
+      "sec": "8601",
+      "name": "株式会社大和証券グループ本社",
+      "desc": "訂正臨時報告書",
+      "issued": 1,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YXLP",
+      "sec": "299A",
+      "name": "クラシル株式会社",
+      "desc": "臨時報告書",
+      "issued": 355300,
+      "remaining": 3553,
+      "exercise_price": 1138,
+      "expire": "2031年9月29日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100YXQ2",
+      "sec": "186A",
+      "name": "株式会社アストロスケールホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
