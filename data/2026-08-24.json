@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-24",
+  "entries": [
+    {
+      "docId": "S100YY62",
+      "sec": "3189",
+      "name": "株式会社ＡＮＡＰホールディングス",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YY8L",
+      "sec": "218A",
+      "name": "株式会社Ｌｉｂｅｒａｗａｒｅ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 209900,
+      "exercise_price": 1072,
+      "expire": "2036年8月3日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YY5N",
+      "sec": "6535",
+      "name": "株式会社アイモバイル",
+      "desc": "臨時報告書",
+      "issued": 295000,
+      "remaining": 2950,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100YY5I",
+      "sec": "6089",
+      "name": "株式会社ウィルグループ",
+      "desc": "臨時報告書",
+      "issued": 459100,
+      "remaining": 4591,
+      "exercise_price": null,
+      "expire": "2036年9月23日",
+      "per_right": 100,
+      "warrant": true
+    }
+  ]
+}
