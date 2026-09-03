@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-03",
+  "entries": [
+    {
+      "docId": "S100Z06Y",
+      "sec": "6574",
+      "name": "株式会社コンヴァノ",
+      "desc": "訂正臨時報告書",
+      "issued": 5000000,
+      "remaining": null,
+      "exercise_price": 121,
+      "expire": "2036年3月9日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
