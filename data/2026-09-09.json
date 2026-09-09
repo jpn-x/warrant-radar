@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-09",
+  "entries": [
+    {
+      "docId": "S100Z13R",
+      "sec": "8057",
+      "name": "株式会社内田洋行",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z137",
+      "sec": "3418",
+      "name": "株式会社バルニバービ",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z18O",
+      "sec": "6535",
+      "name": "株式会社アイモバイル",
+      "desc": "訂正臨時報告書",
+      "issued": 290000,
+      "remaining": 2900,
+      "exercise_price": 528,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
