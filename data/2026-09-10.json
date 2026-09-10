@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-10",
+  "entries": [
+    {
+      "docId": "S100Z0KI",
+      "sec": "9267",
+      "name": "Ｇｅｎｋｙ　ＤｒｕｇＳｔｏｒｅｓ株式会社",
+      "desc": "臨時報告書",
+      "issued": null,
+      "remaining": 1000,
+      "exercise_price": null,
+      "expire": "2033年9月30日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z1KA",
+      "sec": "7970",
+      "name": "信越ポリマー株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 3400,
+      "exercise_price": 2320,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z1KC",
+      "sec": "7970",
+      "name": "信越ポリマー株式会社",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": 1500,
+      "exercise_price": 2320,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z1KI",
+      "sec": "4599",
+      "name": "株式会社ステムリム",
+      "desc": "臨時報告書",
+      "issued": 300000,
+      "remaining": 3000,
+      "exercise_price": 245,
+      "expire": "2036年9月9日",
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z1KM",
+      "sec": "4599",
+      "name": "株式会社ステムリム",
+      "desc": "臨時報告書",
+      "issued": 498900,
+      "remaining": 4989,
+      "exercise_price": 245,
+      "expire": "2036年9月9日",
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
