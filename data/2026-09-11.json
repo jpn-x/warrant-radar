@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-11",
+  "entries": [
+    {
+      "docId": "S100Z1OL",
+      "sec": "9765",
+      "name": "株式会社オオバ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": 1,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z1LC",
+      "sec": "5572",
+      "name": "株式会社Ｒｉｄｇｅ－ｉ",
+      "desc": "臨時報告書",
+      "issued": 75000,
+      "remaining": 750,
+      "exercise_price": 2893,
+      "expire": "2036年9月29日",
+      "per_right": 100,
+      "warrant": true
+    }
+  ]
+}
