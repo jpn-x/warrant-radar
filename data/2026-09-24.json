@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-24",
+  "entries": [
+    {
+      "docId": "S100Z3R1",
+      "sec": "6089",
+      "name": "株式会社ウィルグループ",
+      "desc": "訂正臨時報告書",
+      "issued": 459100,
+      "remaining": 4591,
+      "exercise_price": null,
+      "expire": "2036年9月23日",
+      "per_right": 100,
+      "warrant": true
+    },
+    {
+      "docId": "S100Z2DR",
+      "sec": "9348",
+      "name": "株式会社ｉｓｐａｃｅ",
+      "desc": "訂正臨時報告書",
+      "issued": null,
+      "remaining": null,
+      "exercise_price": null,
+      "expire": null,
+      "per_right": null,
+      "warrant": true
+    }
+  ]
+}
